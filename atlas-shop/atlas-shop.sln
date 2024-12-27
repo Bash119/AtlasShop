@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0A4C1EB1-B85B-4689-9D71-3BE17FAD98DD}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "src\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{4EED9388-CAF7-41B7-9129-BC0B01C5451A}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{64B63F6D-0ACC-4AC7-B5A3-A0B15EFC1DC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{D4B593D9-2825-4670-B36D-C6112498229C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketAPI", "src\Services\Basket\BasketAPI\BasketAPI.csproj", "{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{64B63F6D-0ACC-4AC7-B5A3-A0B15EFC1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B63F6D-0ACC-4AC7-B5A3-A0B15EFC1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B63F6D-0ACC-4AC7-B5A3-A0B15EFC1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +49,7 @@ Global
 		{C8CB6556-B7EE-457E-A475-640E43C0FDFD} = {0A4C1EB1-B85B-4689-9D71-3BE17FAD98DD}
 		{DC772344-0660-40F6-A538-32C14218009D} = {C8CB6556-B7EE-457E-A475-640E43C0FDFD}
 		{4EED9388-CAF7-41B7-9129-BC0B01C5451A} = {4C4CBB1D-4425-4D6F-88E3-17DB37B0CF60}
+		{D4B593D9-2825-4670-B36D-C6112498229C} = {0A4C1EB1-B85B-4689-9D71-3BE17FAD98DD}
+		{D4FE6C6D-0EA5-41D0-95F1-C6EBE6452D6B} = {D4B593D9-2825-4670-B36D-C6112498229C}
 	EndGlobalSection
 EndGlobal
